@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(237, 237, 237);
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+p {
+  margin-top: 1%;
+}
+
+div {
+  margin-top: 5%;
+  text-align: center;
+}
+
+nav {
+  border-radius: 25px;
+  padding: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  display: inline;
+  margin: 0 auto;
+  margin-top: 5%;
+  width: fit-content;
+  text-align: center;
+  background-color: rgb(255, 198, 195);
+}
+
+nav a:hover {
+  background-color: rgb(255, 140, 134);
+}
+
+nav a {
+  padding: 1%;
+}
+
+nav a:not(:last-child) {
+  border-right: 1px #eaeaea solid;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: rgb(255, 198, 195);
+  padding: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  border-radius: 25px;
+}
+
+section:nth-child(odd) {
+  background-color: rgb(180, 223, 255);
+}
+
+figure {
+  padding: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 60%;
+  margin: 0 auto;
+}
+
+figure img {
+  object-fit: contain;
+  border-radius: 10px;
+  width: 100%;
+}
+
+a:link {
+  color:rgb(74, 74, 74);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(139, 139, 139);
+}
+
+figcaption {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: small;
+}
